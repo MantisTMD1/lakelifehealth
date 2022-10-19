@@ -20,5 +20,5 @@ li {
   font-family: "Nunito Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
-  text-decoration: none;
+  text-decoration: none !important;
 }
