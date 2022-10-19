@@ -1,0 +1,78 @@
+.locations {
+  height: 50vh;
+  background-color: #c6dbeb;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.button-layout {
+  margin-top: 32px;
+}
+.locations h1 {
+  text-align: center;
+  padding-top: 48px;
+  color: #003b71;
+  font-weight: 800;
+  text-rendering: optimizeLegibility;
+
+}
+
+#maps-button {
+  border: none;
+  margin-right: 12px;
+}
+
+#maps-button:hover {
+  background-color: #8bb2fa;
+  transition: ease-in-out 0.3s;
+}
+
+.button-layout span {
+  font-size: 16px;
+}
+
+.locations p {
+  font-size: 14px;
+  font-style: italic;
+}
+
+
+#phone {
+  margin-bottom: 4px;
+}
+@media only screen and (max-width: 600px) {
+  .locations {
+    height: 70vh;
+  }
+
+  .locations h1 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  .button-layout {
+    display: grid;
+    margin-top: 32px;
+  }
+
+  .button-layout span {
+    text-align: center;
+
+  }
+  #maps-button {
+    margin-bottom: 16px;
+  }
+}
+
+.locations p {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 75px;
+}
+
+.locations p a {
+  text-decoration: none;
+  font-weight: 500;
+}
+

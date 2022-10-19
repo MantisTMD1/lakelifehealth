@@ -1,0 +1,16 @@
+.about-website a{
+text-decoration: none;
+}
+
+.footer{
+text-align: center;
+height: 42px;
+}
+
+.about-website{
+margin-top: 12px;
+}
+
+.about-website p{
+font-size: 10px;
+}

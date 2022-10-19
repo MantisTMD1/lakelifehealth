@@ -1,0 +1,39 @@
+.contact-form-title h1 {
+  text-align: center;
+  color: #003b71 !important;
+  font-size: 24px;
+  margin-top: 24px;
+}
+
+.submit-button {
+  margin-bottom: 32px;
+}
+
+.form-label {
+  float: left;
+  color: #003b71 !important;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.btn-primary {
+  background-color: #003b71 !important;
+  border-color: #003b71 !important;
+}
+
+.btn-primary:hover {
+  border-color: #79add5 !important;
+  background-color: #79add5 !important;
+}
+
+/* boilerplate c n p  */
+
+@media only screen and (max-width: 600px) {
+  .contact-form-title h1 {
+    font-size: 18px;
+  }
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+}

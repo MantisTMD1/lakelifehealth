@@ -1,0 +1,62 @@
+.background {
+  background: url(../videos/background.mp4) no-repeat center fixed;
+  height: 90vh;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.background img {
+  margin-top: 150px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+.background h4 {
+  color: white;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.background a {
+  text-align: center;
+  text-decoration: none;
+  padding: 12px 32px;
+  border-radius: 100vh;
+
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  border: 1.75px solid rgba(230, 230, 230, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.background a:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  transition: ease-in-out 0.3s;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .background {
+    height: 80vh;
+    width: 100%;
+    padding-top: 52px;
+  }
+  .background h4 {
+    font-size: 18px;
+  }
+}
