@@ -14,7 +14,6 @@
   border-top: 1.5px solid #003b71;
   color: white !important;
   padding-top: 5px;
-
   margin-left: 12px;
   letter-spacing: 0.05rem;
 }
@@ -50,19 +49,16 @@
   }
   .navbar-toggler {
     border: none;
-
   }
-  #home-icon{
-  align-items:center !important;
+  #home-icon {
+    align-items: center !important;
   }
 }
 
 .dropdown-item {
   color: #003b71 !important;
   text-align: center;
-  
 }
-
 
 /* boilerplate c n p */
 /* @media only screen and (max-width: 600px) {} */
