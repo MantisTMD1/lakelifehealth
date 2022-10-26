@@ -21,12 +21,13 @@ export default function Contactform() {
 
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm('service_a4zwwvf', 'gmail_template', form.current, 'hGtiQfFFLl_upa12-')
       .then((result) => {
         console.log(result.text);
         alert("Thank you for reaching out!");
       }, (error) => {
         console.log(error.text);
+        e.target.reset();
       });
   };
   return (
@@ -70,50 +71,38 @@ export default function Contactform() {
 
         </div>
 
-
-        <Form onSubmit={sendEmail}>
+        {/* call emailjs function and useref hook here */}
+        <Form onSubmit={sendEmail} ref={form}>
           <Form.Group className="mb-4" controlId="formBasicEmail">
             <Form.Label>First Name</Form.Label>
-            <Form.Control type="text" placeholder="First Name" />
-            {/* <Form.Text className="text-muted">
-          We'll never share your email with anyone else.
-        </Form.Text> */}
+            <Form.Control type="text" placeholder="First Name" name="user_name" />
+
           </Form.Group>
           <Form.Group className="mb-4" controlId="formBasicEmail">
             <Form.Label>Last Name</Form.Label>
-            <Form.Control type="text" placeholder="Last Name" />
-            {/* <Form.Text className="text-muted">
-          We'll never share your email with anyone else.
-        </Form.Text> */}
+            <Form.Control type="text" placeholder="Last Name" name="user_last_name" />
+
           </Form.Group>
 
           <Form.Group className="mb-4" controlId="formBasicPassword">
             <Form.Label>Email</Form.Label>
-            <Form.Control input type="email" placeholder="Email" />
+            <Form.Control input type="email" placeholder="Email" name="email" />
           </Form.Group>
           <Form.Group className="mb-4" controlId="formBasicPassword">
             <Form.Label>Phone Number</Form.Label>
-            <Form.Control input type="tel" placeholder="Phone Number" />
+            <Form.Control input type="tel" placeholder="Phone Number" name="mobile" />
           </Form.Group>
 
           <Form.Group className="mb-4" controlId="formBasicEmail">
             <Form.Label >Message</Form.Label>
-            <Form.Control as="textarea" rows={4} placeholder="Tell us why you're reaching out..."  id ="text-area"/>
-            {/* <Form.Text className="text-muted">
-          We'll never share your email with anyone else.
-        </Form.Text> */}
+            <Form.Control as="textarea" rows={4} placeholder="Tell us why you're reaching out..." id="text-area" name="message" />
+
           </Form.Group>
-          {/* <Form.Group className="mb-4">
-            <Form.Label>Preferred Contact Method </Form.Label>
-            <Form.Select>
-              <option>Phone Call</option>
-              <option>Email</option>
-            </Form.Select> */}
-          {/* </Form.Group> */}
+
           <div className='submit-button'>
-          <Button variant="primary" type="submit">
-            Submit
-          </Button>
+            <Button variant="primary" type="submit" value="Send">
+              Submit
+            </Button>
           </div>
         </Form>
 
