@@ -5,15 +5,15 @@
   margin-top: 24px;
 }
 
-.contact-form-title img{
+.contact-form-title img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .submit-button {
   margin-bottom: 32px;
+  text-align: center;
 }
 
 .form-label {

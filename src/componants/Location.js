@@ -10,12 +10,12 @@ const LocationComponant = () => {
         <div className="locations">
             <h1>Locations</h1>
             <div className="button-layout">
-                <Button id="maps-button" href="https://www.google.com/maps/place/2357+County+Hwy+SS,+Rice+Lake,+WI+54868/@45.5457343,-91.7517122,17z/data=!3m1!4b1!4m5!3m4!1s0x52acf900bb82268f:0x2e8f7c53e0323134!8m2!3d45.5457306!4d-91.7495182" target="_blank">       <GrMapLocation color="white" size={40} id="maps-icon" /></Button>
+                <Button id="maps-button" href="https://www.google.com/maps/place/2357+County+Hwy+SS,+Rice+Lake,+WI+54868/@45.5457343,-91.7517122,17z/data=!3m1!4b1!4m5!3m4!1s0x52acf900bb82268f:0x2e8f7c53e0323134!8m2!3d45.5457306!4d-91.7495182" target="_blank">       <GrMapLocation color="white" size={40}/></Button>
                 <span>2357 County Highway SS
                     Rice Lake, WI 54868</span>
             </div>
             <div className="button-layout">
-                <Button id="maps-button" href="https://www.google.com/maps/place/WI-70,+Wisconsin/@45.8727705,-90.5615665,13z/data=!3m1!4b1!4m5!3m4!1s0x52aa49a1031edd5f:0xfead922c5bd6c305!8m2!3d45.8727161!4d-90.5264613" target="_blank">     <GrMapLocation color="white" size={40} id="maps-icon" /></Button>
+                <Button id="maps-button" href="https://www.google.com/maps/place/WI-70,+Wisconsin/@45.8727705,-90.5615665,13z/data=!3m1!4b1!4m5!3m4!1s0x52aa49a1031edd5f:0xfead922c5bd6c305!8m2!3d45.8727161!4d-90.5264613" target="_blank">     <GrMapLocation size={40} id="maps-icon" /></Button>
                 <span>N5862 WI-70
                     Stone Lake, WI 54876</span>
             </div>
