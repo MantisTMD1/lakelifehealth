@@ -22,10 +22,6 @@
   border: none;
   margin-right: 12px;
 }
-#maps-icon{
-fill: white !important;
-stroke:white !important;
-}
 
 #maps-button:hover {
   background-color: #8bb2fa;
