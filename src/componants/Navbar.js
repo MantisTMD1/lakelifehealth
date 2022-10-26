@@ -28,7 +28,7 @@ const  NavbarComponant= () => {
               </NavDropdown.Item>
               <NavDropdown.Item href="https://www.instagram.com/" target="_blank" rel="noreferrer">  <AiFillInstagram id ="social-icons"/>Instagram</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="mailto:doctortanae@gmail.com?Subject=Tell%20us%20why%20you%20are%20reaching%20out.%20Thanks!">
+              <NavDropdown.Item href="mailto:doctortanae@gmail.com?Subject=Leave%20your%20name%20and%20number%20and%20tell%20me%20why%20you%20are%20reaching%20out.%20Thanks!">
               <MdEmail id ="social-icons"/>Email
               </NavDropdown.Item>
             </NavDropdown>

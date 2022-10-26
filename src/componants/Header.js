@@ -11,7 +11,7 @@ const HeaderComponant = () => {
     return (
         <div className="background">
 
-            <video src={Backgroundvideo} playsinline autoPlay loop muted />
+            <video src={Backgroundvideo} autoplay="autoplay" loop="loop" muted defaultMuted playsinline />
             <div className="content">
                 <img src={LakelifeLogo} alt="Logo" class="responsive" />
                 <h4 className="paragraph">
