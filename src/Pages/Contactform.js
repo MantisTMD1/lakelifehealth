@@ -71,7 +71,7 @@ export default function Contactform() {
 
         </div>
 
-        {/* call emailjs function and useref hook here */}
+        {/* call emailjs function and useref hook */}
         <Form onSubmit={sendEmail} ref={form}>
           <Form.Group className="mb-4" controlId="formBasicEmail">
             <Form.Label>First Name</Form.Label>

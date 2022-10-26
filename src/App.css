@@ -22,3 +22,11 @@ li {
   font-style: normal;
   text-decoration: none !important;
 }
+
+@media only screen and (max-width: 600px) {
+  html,
+  body {
+    scroll-behavior: smooth;
+    scroll-snap-type: y;
+  }
+}

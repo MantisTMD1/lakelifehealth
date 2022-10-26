@@ -5,10 +5,12 @@ text-decoration: none;
 .footer{
 text-align: center;
 height: 42px;
+width: 100%;
 }
 
 .about-website{
-margin-top: 18px;
+margin-top: 12px;
+margin-bottom: 12px;
 }
 
 .about-website p{
