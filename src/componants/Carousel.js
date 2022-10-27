@@ -20,8 +20,9 @@ export default class Slider extends React.Component {
                 // adaptiveHeight='true'
                 >
                     <img src={Canoe} alt="chiro" id="slider-image" />
+
                     <img src={Backcrack} alt="chiro" id="slider-image" />
-                    <img src={Acupuncture} alt="chiro" id="slider-image" />
+               <img src={Acupuncture} alt="chiro" id="slider-image" />
                     <img src={Medicine} alt="chiro" id="slider-image" />
                 </Carousel>
             </div>

@@ -95,7 +95,7 @@ export default function Contactform() {
 
           <Form.Group className="mb-4" controlId="formBasicEmail">
             <Form.Label >Message</Form.Label>
-            <Form.Control as="textarea" rows={4} placeholder="Tell us why you're reaching out..." id="text-area" name="message" />
+            <Form.Control as="textarea" rows={4} placeholder="Tell me why you're reaching out..." id="text-area" name="message" />
 
           </Form.Group>
 
