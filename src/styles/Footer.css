@@ -1,5 +1,6 @@
 .about-website a{
 text-decoration: none;
+font-family: 'Courier New', Courier, monospace;
 }
 
 .footer{
@@ -11,6 +12,8 @@ width: 100%;
 .about-website{
 margin-top: 12px;
 margin-bottom: 12px;
+font-family: 'Courier New', Courier, monospace;
+font-weight: 600;
 }
 
 .about-website p{

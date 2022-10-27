@@ -3,6 +3,8 @@
   color: #003b71 !important;
   font-size: 24px;
   margin-top: 24px;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
 }
 
 .contact-form-title img {
@@ -17,16 +19,16 @@
 }
 
 .form-label {
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
   float: left;
   color: #003b71 !important;
-  font-weight: bold;
   font-size: 18px;
 }
 
 .btn-primary {
   background-color: #003b71 !important;
   border-color: #003b71 !important;
-}
+  }
 
 .btn-primary:hover {
   border-color: #79add5 !important;

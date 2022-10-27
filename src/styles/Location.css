@@ -12,6 +12,7 @@
 }
 .locations h1 {
   text-align: center;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding-top: 48px;
   color: #003b71;
   font-weight: 800;
@@ -30,6 +31,8 @@
 
 .button-layout span {
   font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 .locations p {

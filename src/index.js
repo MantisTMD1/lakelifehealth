@@ -9,7 +9,7 @@ import Services from "./Pages/Services";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter basename="/" forceRefresh={true}>
+  <BrowserRouter forceRefresh={true}>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="AboutUs" element={<AboutUs />} />
