@@ -19,7 +19,8 @@ export default function Contactform() {
   const form = useRef();
   const sendEmail = (e) => {
 
-    e.preventDefault();
+    // prevents page from reloading after on submit
+    e.preventDefault(); 
 
     emailjs.sendForm('service_a4zwwvf', 'gmail_template', form.current, 'hGtiQfFFLl_upa12-')
       .then((result) => {
@@ -34,11 +35,11 @@ export default function Contactform() {
     <Fragment>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" id="navbar">
         <Container>
-          <Navbar.Brand id="logo" href="/">Lakelife</Navbar.Brand>
+          <Navbar.Brand id="logo" href="/Home">Lakelife</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto" id="navbuttons">
-              <Nav.Link href="/"><AiFillHome id="home-icon" />Home</Nav.Link>
+              <Nav.Link href="/Home"><AiFillHome id="home-icon" />Home</Nav.Link>
               <Nav.Link href="/Services"> <FaHeart id="home-icon" />Services</Nav.Link>
               <Nav.Link href="/AboutUs"><MdOutlineWavingHand id="home-icon" />About</Nav.Link>
               <Nav.Link href="/Contactform"> <MdContactPage id="home-icon" />Contact</Nav.Link>
