@@ -2,7 +2,7 @@
   "name": "lake-life-health",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/Home",
+  "homepage": ".",
   "dependencies": {
     "bootstrap": "^5.2.2",
     "d3-ease": "^3.0.1",
