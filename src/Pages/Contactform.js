@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import "../styles/Navbar.css";
+import "../styles/navbar.css";
 import { AiFillHome, AiFillInstagram } from "react-icons/ai";
 import { FaHeart, FaFacebookSquare } from "react-icons/fa";
 import { MdContactPage, MdEmail, MdOutlineWavingHand } from "react-icons/md";
@@ -10,7 +10,7 @@ import { BsYoutube } from "react-icons/bs";
 import React, { Fragment, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import logo from '../images/lake-life.png';
-import '../styles/Contactform.css';
+import '../styles/contactform.css';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 

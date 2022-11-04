@@ -3,21 +3,21 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import "../styles/Navbar.css";
+import "../styles/navbar.css";
 import { AiFillHome, AiFillInstagram } from "react-icons/ai";
 import { FaHeart, FaFacebookSquare } from "react-icons/fa";
 import { MdContactPage, MdEmail, MdOutlineWavingHand } from "react-icons/md";
 import { BsYoutube } from "react-icons/bs";
 
 // Header imports 
-import '../styles/Header.css';
+import '../styles/header.css';
 import LakelifeLogo from '../images/white-logo.png';
 import Backgroundvideo from '../videos/background.mp4';
 import { Fragment } from 'react';
 
 // Carousel imports 
 import Carousel from 'nuka-carousel';
-import "../styles/Carousel.css";
+import "../styles/carousel.css";
 import Acupuncture from '../slider-images/acupuncture-pain-relief.jpeg';
 import Canoe from '../slider-images/canoe.jpeg';
 import Backcrack from '../slider-images/chiro.jpg';
@@ -25,17 +25,17 @@ import Medicine from '../slider-images/functional-medicine.jpg';
 
 // schedule imports
 import Table from 'react-bootstrap/Table';
-import '../styles/Schedule.css';
+import '../styles/schedule.css';
 
 // location imports
-import '../styles/Location.css';
+import '../styles/location.css';
 import { GrMapLocation } from "react-icons/gr";
 import Button from 'react-bootstrap/Button'
 import { Link } from "react-router-dom";
 import { AiFillPhone } from "react-icons/ai";
 
 // footer imports
-import '../styles/Footer.css';
+import '../styles/footer.css';
 
 export default function Home() {
     return (

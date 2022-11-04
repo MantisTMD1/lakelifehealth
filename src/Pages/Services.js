@@ -2,13 +2,13 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import "../styles/Navbar.css";
+import "../styles/navbar.css";
 import { AiFillHome, AiFillInstagram, AiFillPhone } from "react-icons/ai";
 import { FaHeart, FaFacebookSquare } from "react-icons/fa";
 import { MdContactPage, MdEmail, MdOutlineWavingHand } from "react-icons/md";
 import { BsYoutube } from "react-icons/bs";
 import React, { Fragment } from 'react';
-import '../styles/Services.css';
+import '../styles/services.css';
 import LakelifeLogo from '../images/lake-life.png';
 import { Link } from "react-router-dom";
 

@@ -5,10 +5,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Routes
 import { Routes, Route } from "react-router-dom";
-import AboutUs from "./Pages/AboutTanae";
-import Contactform from "./Pages/Contactform";
-import Services from "./Pages/Services";
-import Home from './Pages/Home';
+import AboutUs from "./pages/abouttanae";
+import Contactform from "./pages/contactform";
+import Services from "./pages/services";
+import Home from './pages/home';
 
 const App = () => {
   return (
