@@ -2,7 +2,7 @@
   "name": "lake-life-health",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/subdir/",
+  "homepage": ".",
   "dependencies": {
     "bootstrap": "^5.2.2",
     "d3-ease": "^3.0.1",
@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm run build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
