@@ -1,23 +1,14 @@
+@import url("https://fonts.cdnfonts.com/css/penna");
+
 .container-1 {
   border-radius: 5px;
-  height: 300px;
   background-color: #c6dbeb;
-  border-radius: 60px;
   margin: 25px;
   padding: 10px;
   text-align: center;
 }
 
-.container-1 h1 {
-  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
-
-  font-size: 48px;
-  color: #003b71;
-}
-
 .container-2 {
-  background-color: white;
   padding-top: 24px;
   padding-right: 15px;
   padding-left: 15px;
@@ -27,10 +18,9 @@
 }
 
 .container-2 h1 {
-  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
-
-  font-size: 48px;
+  font-family: "Penna", sans-serif;
+  font-weight: 700;
+  font-size: 62px;
   color: #001325;
   text-align: center;
 }
@@ -46,14 +36,18 @@
 }
 
 .container-2 p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 300;
-  font-size: 16px;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 17px;
   padding-top: 50px;
   color: #001325;
   text-indent: 5ch;
-  line-height: 22px;
+  line-height: 24px;
   padding-bottom: 32px;
+
+}
+
+#form-link {
+  text-decoration: none !important;
 }
 
 @media only screen and (max-width: 600px) {
@@ -63,6 +57,8 @@
   }
 
   .container-2 img {
+    margin-bottom: -12px;
+    margin-top: 16px;
     float: none;
     display: block;
     display: block;
@@ -70,6 +66,10 @@
     margin-right: auto;
   }
 
+  .container-2 h1 {
+    font-size: 52px;
+    font-weight: 800;
+  }
   .container-2 p {
     text-align: center;
     text-indent: 1ch;

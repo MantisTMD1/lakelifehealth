@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Proxima+Nova");
+
 #navbar {
   background-color: #003b71 !important;
   z-index: 2;
@@ -6,13 +8,17 @@
 #logo {
   font-size: 48px;
   margin-right: 24px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-family: iskra, sans-serif;
 }
 
 #navbuttons {
   font-size: 18px;
 }
 .nav-link {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 500;
   border-top: 1.5px solid #003b71;
   color: white !important;
   padding-top: 5px;
@@ -44,9 +50,6 @@
 #collasible-nav-dropdown {
   margin-right: 8px;
 }
-
-
-
 
 @media only screen and (max-width: 600px) {
   #logo {

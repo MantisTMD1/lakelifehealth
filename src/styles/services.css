@@ -6,22 +6,25 @@
 #services h1 {
   font-size: 36px;
   margin-bottom: 72px;
-  letter-spacing: 0.04rem;
+  letter-spacing: 0.05rem;
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
-  sans-serif;
+    sans-serif;
   color: #003b71;
 }
 
 #services img {
   text-align: center;
-  margin-bottom:24px;
+  margin-bottom: 24px;
 }
 
 .wrapper h4 {
-  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,  sans-serif;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  border-bottom: 1px solid #003b71;
   color: #003b71;
-  font-size: 22px;
+  font-size: 24px;
   margin-bottom: 24px;
+  letter-spacing: 0.05rem;
 }
 
 .wrapper {
@@ -32,10 +35,22 @@
   margin-left: auto;
 }
 
-wrapper p{
-  font-family: Arial, Helvetica, sans-serif;
+.wrapper p {
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+
+  line-height: 24px;
 }
 
+#lower-p-tag {
+  margin-top: 12px;
+  display: block;
+  text-align: left;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-style: oblique;
+  border-bottom: none;
+}
 #services-footer {
   font-size: 14px;
   font-style: italic;
@@ -47,8 +62,8 @@ wrapper p{
   margin-left: auto;
 }
 
-#services-footer a{
-text-decoration: none !important;
+#services-footer a {
+  text-decoration: none !important;
 }
 
 #phone {

@@ -13,6 +13,11 @@
 
 }
 
+#virtual-hours{
+  text-align: center;
+ margin: auto;
+}
+
 #days {
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
@@ -29,6 +34,11 @@ td {
 
 @media only screen and (max-width: 600px) {
   .storehours {
-    height: 60vh;
+    height: 65vh;
+
+  }
+  #virtual-hours{
+  text-align: center;
+ margin: auto;
   }
 }

@@ -44,11 +44,11 @@ export default function Contactform() {
               <Nav.Link href="/AboutUs"><MdOutlineWavingHand id="home-icon" />About</Nav.Link>
               <Nav.Link href="/Contactform"> <MdContactPage id="home-icon" />Contact</Nav.Link>
               <NavDropdown title="Social" id="collasible-nav-dropdown" >
-                <NavDropdown.Item href="https://www.youtube.com" target="_blank" rel="noreferrer"> <BsYoutube id="social-icons" />Youtube</NavDropdown.Item>
-                <NavDropdown.Item href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+                <NavDropdown.Item href=" https://www.youtube.com/channel/UC3_TpJyqKqBHUZHeRREsezw" target="_blank" rel="noreferrer"> <BsYoutube id="social-icons" />Youtube</NavDropdown.Item>
+                <NavDropdown.Item href="https://www.facebook.com/tanaebergdc" target="_blank" rel="noreferrer">
                   <FaFacebookSquare id="social-icons" />Facebook
                 </NavDropdown.Item>
-                <NavDropdown.Item href="https://www.instagram.com/" target="_blank" rel="noreferrer">  <AiFillInstagram id="social-icons" />Instagram</NavDropdown.Item>
+                <NavDropdown.Item href="https://www.instagram.com/lakelife.integrativehealth/" target="_blank" rel="noreferrer">  <AiFillInstagram id="social-icons" />Instagram</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="mailto:doctortanae@gmail.com?Subject=Leave%20your%20name%20and%20number%20and%20tell%20me%20why%20you%20are%20reaching%20out.%20Thanks!">
                   <MdEmail id="social-icons" />Email

@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Proxima+Nova");
+
+.bulleted-list {
+  height: 75vh;
+  font-family: iskra, sans-serif;
+  font-size: 16px;
+  margin-bottom: 24px;
+  height: 100%;
+  background-color: #c6dbeb;
+}
+
+.bulleted-list h1 {
+  text-align: left;
+  margin-left: 18px;
+  font-size: 28px;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  color: #003b71;
+  padding-top: 24px;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  padding-bottom: 24px;
+}
+
+.bulleted-list ul {
+  list-style: inside;
+  display: inline-block;
+  width: 321px;
+  vertical-align: top;
+}
+.bulleted-list li {
+  font-size: 16px;
+  font-family: "proxima-nova", sans-serif;
+
+  line-height: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .bulleted-list {
+    height: 75vh;
+  }
+
+  .bulleted-list h1{
+  font-size: 24px;
+  }
+}
