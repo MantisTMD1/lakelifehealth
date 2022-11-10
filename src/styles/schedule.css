@@ -4,24 +4,25 @@
 
 #hours {
   text-align: center;
-  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
   padding-top: 24px;
   padding-bottom: 24px;
   color: #003b71;
   font-weight: bold;
   margin-top: 16px;
-
 }
 
-#virtual-hours{
+#virtual-hours {
   text-align: center;
- margin: auto;
+  margin: auto;
 }
 
 #days {
-  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 600;
   color: #003b71;
   -webkit-font-smoothing: antialiased;
 }
@@ -35,10 +36,9 @@ td {
 @media only screen and (max-width: 600px) {
   .storehours {
     height: 65vh;
-
   }
-  #virtual-hours{
-  text-align: center;
- margin: auto;
+  #virtual-hours {
+    text-align: center;
+    margin: auto;
   }
 }

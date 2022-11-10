@@ -117,8 +117,8 @@ export default function Contactform() {
             and nutritional imbalance. Functional Medicine can also be great for
             people who feel good, but just want to improve their overall health!
           </p>
-          <p id= "lower-p-tag">Want to get started but don't live in Stone Lake? No problem!</p>
-          <p id= "lower-p-tag">Virtual Consultations Available!!</p>
+          <p id="lower-p-tag">Want to get started but don't live in Stone Lake? No problem!</p>
+          <p id="lower-p-tag">Virtual Consultations Available!!</p>
         </div>
         <br></br>
 

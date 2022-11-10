@@ -8,8 +8,8 @@ import { FaHeart, FaFacebookSquare } from "react-icons/fa";
 import { MdContactPage, MdEmail, MdOutlineWavingHand } from "react-icons/md";
 import { BsYoutube } from "react-icons/bs";
 import React, { Fragment, useRef } from 'react';
-import emailjs from '@emailjs/browser';
-import logo from '../images/lake-life.png';
+import Emailjs from '@emailjs/browser';
+import Logo from '../images/lake-life.png';
 import '../styles/contactform.css';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
@@ -22,7 +22,7 @@ export default function Contactform() {
     // prevents page from reloading after on submit
     e.preventDefault(); 
 
-    emailjs.sendForm('service_a4zwwvf', 'gmail_template', form.current, 'hGtiQfFFLl_upa12-')
+    Emailjs.sendForm('service_a4zwwvf', 'gmail_template', form.current, 'hGtiQfFFLl_upa12-')
       .then((result) => {
         console.log(result.text);
         alert("Thank you for reaching out!");
@@ -66,7 +66,7 @@ export default function Contactform() {
 
         <div className='contact-form-title'>
           <h1>Please fill out the form and I will get back to you soon!</h1>
-          <img src={logo} width="394"
+          <img src={Logo} width="394"
             height="124" alt="lakelifelogo" class="responsive" />
 
 
