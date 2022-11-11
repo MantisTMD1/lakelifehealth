@@ -83,7 +83,7 @@ export default function AboutTanae() {
       </Navbar>
 
       <div className="container-1">
-        <img
+        <img id = "logo02"
           src={LakelifeLogo}
           width="394"
           height="124"
@@ -118,7 +118,7 @@ export default function AboutTanae() {
           making physical, chemical, and emotional health a top priority for
           myself and others that cross my path. I look forward to helping you on
           your health journey! Feel free to reach out to me by filling out my short form
-          <span id="form-link"><Link to="/Contactform"> here</Link></span>.
+          <span id="form-link"><Link to="/Contactform"> here</Link></span>!
         </p>
       </div>
     </Fragment>

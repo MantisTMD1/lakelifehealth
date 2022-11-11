@@ -247,8 +247,8 @@ export default function Home() {
                     If you have any questions about scheduling or location hours please
                     reach out{" "}
                     <a href="tel:+715-205-5560">
-                        <AiFillPhone id="phone" size={25} /> here
-                    </a>{" "}.  Or fill out my short form <Link to="/Contactform">here</Link>.{" "}
+                        <AiFillPhone id="phone" size={25} />715-205-5560
+                    </a>{" "} Or fill out my short form <Link to="/Contactform">here</Link>.{" "}
                 </p>
             </div>
 

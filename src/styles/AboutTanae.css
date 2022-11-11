@@ -14,7 +14,7 @@
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  height: 75vh;
+  height: 60vh;
 }
 
 .container-2 h1 {
@@ -52,7 +52,7 @@
 
 @media only screen and (max-width: 600px) {
   .container-1 {
-    height: 60vh;
+    height: 40vh;
     padding-top: 100px;
   }
 
