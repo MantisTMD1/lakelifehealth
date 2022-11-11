@@ -16,23 +16,24 @@
 #navbuttons {
   font-size: 18px;
 }
-.nav-link {
+#nav-link {
   font-family: "proxima-nova", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   border-top: 1.5px solid #003b71;
   color: white !important;
   padding-top: 5px;
-  margin-left: 12px;
+  margin-left: 18px;
   letter-spacing: 0.05rem;
+  text-decoration: none !important;
 }
 
-.nav-link:hover {
+#nav-link:hover {
   border-top: 1.5px solid #ffffff;
   transition: ease-in-out 0.3s;
 }
 
-.nav-link :active,
-.nav.link:focus {
+#nav-link :active,
+#nav-link:focus {
   border-top: 1.5px solid #ffffff;
 }
 
@@ -49,6 +50,8 @@
 
 #collasible-nav-dropdown {
   margin-right: 8px;
+  margin-left: 18px;
+  color: white;
 }
 
 @media only screen and (max-width: 600px) {

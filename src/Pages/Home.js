@@ -51,24 +51,24 @@ export default function Home() {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto " id="navbuttons">
-                            <Nav.Link href="/">
+                            <Nav.Link href="/" id="nav-link">
                                 <AiFillHome id="home-icon" />
                                 Home
                             </Nav.Link>
-                            <Nav.Link href="/Services">
+                            <Link to="/Services" id="nav-link">
                                 {" "}
                                 <FaHeart id="home-icon" />
                                 Services
-                            </Nav.Link>
-                            <Nav.Link href="/AboutUs">
+                            </Link>
+                            <Link to="/AboutUs" id="nav-link">
                                 <MdOutlineWavingHand id="home-icon" />
                                 About
-                            </Nav.Link>
-                            <Nav.Link href="/Contactform">
+                            </Link>
+                            <Link to="/Contactform" id="nav-link">
                                 {" "}
                                 <MdContactPage id="home-icon" />
                                 Contact
-                            </Nav.Link>
+                            </Link>
                             <NavDropdown title="Social" id="collasible-nav-dropdown">
                                 <NavDropdown.Item
                                     href=" https://www.youtube.com/channel/UC3_TpJyqKqBHUZHeRREsezw"
@@ -110,11 +110,11 @@ export default function Home() {
             <div className="background">
                 <video
                     src={Backgroundvideo}
-                    autoplay="autoplay"
-                    loop="loop"
+                    loop
                     muted
                     defaultMuted
-                    playsinline
+                    autoPlay
+                    playsInline
                 />
                 <div className="content">
                     <img src={LakelifeLogo} alt="Logo" class="responsive" />
@@ -158,20 +158,20 @@ export default function Home() {
                 </ul>
                 <ul>
                     <li>Shoulder Tension</li>
-                    <li>ennis/Golfer's elbow</li>
+                    <li>Tennis/Golfer's elbow</li>
                     <li>Carpal Tunnel</li>
                     <li>Shoulder pain</li>
                     <li>Numbness/tingling</li>
                     <li>Poor posture</li>
                     <li>Tight muscles</li>
-                    
+
                 </ul>
 
-                <ul>  
-                <li>And so much more!</li>
+                <ul>
+                    <li>And so much more!</li>
                 </ul>
-    
-                         </div>
+
+            </div>
 
             <div className="storehours">
                 <h1 id="hours">
@@ -215,8 +215,8 @@ export default function Home() {
                         </tr>
                     </tbody>
                 </Table>
-                <p id= "virtual-hours">Want to get started but don't live in Stone Lake? No problem!</p>
-          <p id= "virtual-hours">Virtual Consultations Available!!</p>
+                <p id="virtual-hours">Want to get started but don't live in Stone Lake? No problem!</p>
+                <p id="virtual-hours">Virtual Consultations Available!!</p>
             </div>
 
             <div className="locations">
@@ -247,9 +247,8 @@ export default function Home() {
                     If you have any questions about scheduling or location hours please
                     reach out{" "}
                     <a href="tel:+715-205-5560">
-                        <AiFillPhone id="phone" size={25} /> 715-205-5560
-                    </a>{" "}
-                    Or fill out this short form <Link to="/Contactform">here</Link>.{" "}
+                        <AiFillPhone id="phone" size={25} /> here
+                    </a>{" "}.  Or fill out my short form <Link to="/Contactform">here</Link>.{" "}
                 </p>
             </div>
 

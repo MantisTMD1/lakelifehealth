@@ -28,24 +28,24 @@ export default function AboutTanae() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto" id="navbuttons">
-              <Nav.Link href="/">
+              <Nav.Link href="/"  id="nav-link">
                 <AiFillHome id="home-icon" />
                 Home
               </Nav.Link>
-              <Nav.Link href="/Services">
+              <Link to="/Services" id="nav-link">
                 {" "}
                 <FaHeart id="home-icon" />
                 Services
-              </Nav.Link>
-              <Nav.Link href="/AboutUs">
+              </Link>
+              <Link to="/AboutUs" id="nav-link">
                 {" "}
                 <MdOutlineWavingHand id="home-icon" />
                 About
-              </Nav.Link>
-              <Nav.Link href="/Contactform">
+              </Link>
+              <Link to="/Contactform" id="nav-link">
                 <MdContactPage id="home-icon" />
                 Contact
-              </Nav.Link>
+              </Link>
               <NavDropdown title="Social" id="collasible-nav-dropdown">
                 <NavDropdown.Item
                   href=" https://www.youtube.com/channel/UC3_TpJyqKqBHUZHeRREsezw"

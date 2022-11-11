@@ -13,6 +13,7 @@ import Logo from '../assets/lake-life.png';
 import '../styles/contactform.css';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import { Link } from "react-router-dom";
 
 
 export default function Contactform() {
@@ -39,10 +40,10 @@ export default function Contactform() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto" id="navbuttons">
-              <Nav.Link href="/"><AiFillHome id="home-icon" />Home</Nav.Link>
-              <Nav.Link href="/Services"> <FaHeart id="home-icon" />Services</Nav.Link>
-              <Nav.Link href="/AboutUs"><MdOutlineWavingHand id="home-icon" />About</Nav.Link>
-              <Nav.Link href="/Contactform"> <MdContactPage id="home-icon" />Contact</Nav.Link>
+              <Nav.Link href="/"id="nav-link"><AiFillHome id="home-icon" />Home</Nav.Link>
+              <Link to="/Services" id="nav-link"> <FaHeart id="home-icon" />Services</Link>
+              <Link to="/AboutUs" id="nav-link"><MdOutlineWavingHand id="home-icon" />About</Link>
+              <Link to="/Contactform" id="nav-link"> <MdContactPage id="home-icon" />Contact</Link>
               <NavDropdown title="Social" id="collasible-nav-dropdown" >
                 <NavDropdown.Item href=" https://www.youtube.com/channel/UC3_TpJyqKqBHUZHeRREsezw" target="_blank" rel="noreferrer"> <BsYoutube id="social-icons" />Youtube</NavDropdown.Item>
                 <NavDropdown.Item href="https://www.facebook.com/tanaebergdc" target="_blank" rel="noreferrer">

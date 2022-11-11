@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Proxima+Nova");
 
 .bulleted-list {
-  height: 75vh;
+  height: 80vh;
   font-family: iskra, sans-serif;
   font-size: 16px;
   margin-bottom: 24px;
   height: 100%;
-  background-color: #c6dbeb;
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(219, 92%, 76%, 1) 0%,
+    hsla(228, 75%, 16%, 1) 100%
+  );
 }
 
 .bulleted-list h1 {
@@ -15,7 +19,7 @@
   font-size: 28px;
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
-  color: #003b71;
+  color: white;
   padding-top: 24px;
   font-weight: 400;
   text-rendering: optimizeLegibility;
@@ -31,16 +35,16 @@
 .bulleted-list li {
   font-size: 16px;
   font-family: "proxima-nova", sans-serif;
-
+  color: white;
   line-height: 25px;
 }
 
 @media only screen and (max-width: 600px) {
   .bulleted-list {
-    height: 75vh;
+    height: 80vh;
   }
 
-  .bulleted-list h1{
-  font-size: 24px;
+  .bulleted-list h1 {
+    font-size: 24px;
   }
 }
