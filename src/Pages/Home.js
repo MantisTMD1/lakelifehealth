@@ -11,7 +11,7 @@ import { BsYoutube } from "react-icons/bs";
 
 // Header imports
 import "../styles/header.css";
-import LakelifeLogo from "../images/white-logo.png";
+import LakelifeLogo from "../assets/white-logo.png";
 import Backgroundvideo from "../videos/background.mp4";
 import { Fragment } from "react";
 

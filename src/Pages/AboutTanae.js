@@ -6,12 +6,12 @@ import "../styles/navbar.css";
 // import { Link } from "react-router-dom";
 import React, { Fragment } from "react";
 import "../styles/abouttanae.css";
-import Headshot from "../images/headshot.jpg";
+import Headshot from "../assets/headshot.jpg";
 import { AiFillHome, AiFillInstagram } from "react-icons/ai";
 import { FaHeart, FaFacebookSquare } from "react-icons/fa";
 import { MdContactPage, MdEmail, MdOutlineWavingHand } from "react-icons/md";
 import { BsYoutube } from "react-icons/bs";
-import LakelifeLogo from "../images/lake-life.png";
+import LakelifeLogo from "../assets/lake-life.png";
 import { Link } from "react-router-dom";
 
 
@@ -117,8 +117,8 @@ export default function AboutTanae() {
           I believe in slowing down and enjoying all seasons of life, as well as
           making physical, chemical, and emotional health a top priority for
           myself and others that cross my path. I look forward to helping you on
-          your health journey! Feel free to reach out to me by filling out my short form 
-           <span id="form-link"><Link to="/Contactform"> here</Link></span>.
+          your health journey! Feel free to reach out to me by filling out my short form
+          <span id="form-link"><Link to="/Contactform"> here</Link></span>.
         </p>
       </div>
     </Fragment>

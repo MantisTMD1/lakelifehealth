@@ -9,7 +9,7 @@ import { MdContactPage, MdEmail, MdOutlineWavingHand } from "react-icons/md";
 import { BsYoutube } from "react-icons/bs";
 import React, { Fragment, useRef } from 'react';
 import Emailjs from '@emailjs/browser';
-import Logo from '../images/lake-life.png';
+import Logo from '../assets/lake-life.png';
 import '../styles/contactform.css';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';

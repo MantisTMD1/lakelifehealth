@@ -9,7 +9,7 @@ import { MdContactPage, MdEmail, MdOutlineWavingHand } from "react-icons/md";
 import { BsYoutube } from "react-icons/bs";
 import React, { Fragment } from "react";
 import "../styles/services.css";
-import LakelifeLogo from "../images/lake-life.png";
+import LakelifeLogo from "../assets/lake-life.png";
 import { Link } from "react-router-dom";
 
 export default function Contactform() {
