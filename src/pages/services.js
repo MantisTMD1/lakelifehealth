@@ -87,7 +87,7 @@ export default function Contactform() {
           alt="Logo"
           className="responsive"
         />
-        <h1>My Services</h1>
+        <h1>Services</h1>
 
         <div className="wrapper">
           <h4>Chiropractic & Kinesiology</h4>
